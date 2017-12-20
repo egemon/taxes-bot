@@ -1,0 +1,17 @@
+{
+  "name": "taxes-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Illia Lukianov <illia.lukianov@agileengine.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.29.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "nodemon": "^1.14.0"
+  },
+  "scripts": {
+    "start": "nodemon --inspect --debug-brk index.js 8081 "
+  }
+}
